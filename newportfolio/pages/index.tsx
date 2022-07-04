@@ -21,6 +21,10 @@ const Home: NextPage = () => {
                     href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap"
                     rel="stylesheet"
                 ></link>
+                <link
+                    href="http://fonts.cdnfonts.com/css/graffiti-font"
+                    rel="stylesheet"
+                />
             </Head>
             <GlobalStyle />
             <NavHeader>

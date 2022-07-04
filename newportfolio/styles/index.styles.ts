@@ -7,6 +7,7 @@ export const NavHeader = styled.nav`
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 10;
 `;
 
 export const NavList = styled.ul`
