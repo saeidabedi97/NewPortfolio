@@ -1,32 +1,41 @@
 import AboutPage from '../PortfolioPages/AboutPage/AboutPage';
 import {
+    CVButton,
+    FrontendText,
+    IntroMainBottomContainer,
     IntroMainText,
     IntroMainTextContainer,
     MainPageContainer,
     MainPageInnerContainer,
-    PictureBackgroundSVG,
     PicturesContainer,
     SaeidPicture1,
     SaeidPicture2,
     SaeidPicture3,
     SaeidPicture4,
 } from '../styles/MainPage.styles';
-import CircleAnimationSVG from '../svgAnimations/CircleAnimationSVG';
+import PathAnimationSVG from '../svgAnimations/PathAnimationSVG';
 
 export default function MainPage() {
     return (
         <MainPageContainer>
             <MainPageInnerContainer>
                 <IntroMainTextContainer>
-                    <CircleAnimationSVG />
-
+                    <PathAnimationSVG />
                     <IntroMainText>
                         My <br />
                         Name is Saeid
                     </IntroMainText>
+                    <IntroMainBottomContainer>
+                        <FrontendText>FRONTEND DEVELOPER</FrontendText>
+                        <CVButton
+                            whileHover={{ scale: 1.15 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            View CV
+                        </CVButton>
+                    </IntroMainBottomContainer>
                 </IntroMainTextContainer>
                 <PicturesContainer>
-                    {/* <PictureBackgroundSVG src="Group 17.svg" /> */}
                     <SaeidPicture1 src="Saeid1.jpg" />
                     <SaeidPicture2 src="Saeid2.jpg" />
                     <SaeidPicture3 src="Saeid3.jpg" />
