@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ClickMeButton = styled.span`
+export const ClickMeButton = styled.button`
     position: fixed;
     top: 7%;
     color: #66fcf1;
@@ -12,6 +12,7 @@ export const ClickMeButton = styled.span`
     font-size: 25px;
     text-align: center;
     cursor: pointer;
+    background-color: transparent;
 `;
 
 export const ClickMeContainer = styled.section``;
