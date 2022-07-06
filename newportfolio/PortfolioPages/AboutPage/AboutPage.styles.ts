@@ -5,13 +5,16 @@ export const AboutContainer = styled.section`
     height: 650px;
     width: 650px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     left: 27%;
     top: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 480px) {
+        top: 80px;
+    }
 `;
 
 export const AboutMeTopInnerContainer = styled.div``;

@@ -21,7 +21,6 @@ export default function PathAnimationSVG() {
             style={{
                 position: 'absolute',
                 opacity: 0.3,
-                zIndex: -5,
                 borderRadius: '25%',
                 top: '10%',
             }}

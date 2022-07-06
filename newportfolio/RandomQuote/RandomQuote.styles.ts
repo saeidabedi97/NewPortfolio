@@ -13,6 +13,7 @@ export const ClickMeButton = styled.button`
     text-align: center;
     cursor: pointer;
     background-color: transparent;
+    z-index: 9;
 `;
 
 export const ClickMeContainer = styled.section``;

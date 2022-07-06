@@ -6,6 +6,9 @@ export const MainPageContainer = styled.div`
     width: 100%;
     position: relative;
     display: flex;
+    @media (max-width: 480px) {
+        width: 880px;
+    }
 `;
 
 export const MainPageInnerContainer = styled.div`
@@ -15,6 +18,8 @@ export const MainPageInnerContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     top: 10%;
+    @media (max-width: 480px) {
+    }
 `;
 
 export const IntroMainTextContainer = styled.section`
@@ -38,7 +43,7 @@ export const IntroMainText = styled.h1`
     font-weight: 1000;
     width: 85%;
     @media (max-width: 480px) {
-        font-size: 55px;
+        font-size: 75px;
         position: absolute;
         top: 25px;
     }
@@ -64,7 +69,7 @@ export const IntroMainBottomContainer = styled.div`
     justify-content: space-between;
     @media (max-width: 426px) {
         position: relative;
-        top: 35px;
+        top: 115px;
     }
 `;
 

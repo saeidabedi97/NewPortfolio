@@ -6,6 +6,7 @@ import { NavHeader, NavList, NavItem, NavLogo } from '../styles/index.styles';
 import RandomQuote from '../RandomQuote/RandomQuote';
 import AboutPage from '../PortfolioPages/AboutPage/AboutPage';
 import DiamondAnimationSVG from '../svgAnimations/DiamondAnimationSVG';
+import Techskills from '../PortfolioPages/TechSkills/TechSkills';
 
 const Home: NextPage = () => {
     return (
@@ -42,9 +43,18 @@ const Home: NextPage = () => {
             </NavHeader>
             <RandomQuote />
             <MainPage />
-            <div style={{ position: 'relative' }}>
+            <div
+                style={{
+                    position: 'relative',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}
+            >
                 <DiamondAnimationSVG />
                 <AboutPage />
+                <Techskills />
             </div>
         </div>
     );
