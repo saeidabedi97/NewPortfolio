@@ -31,6 +31,7 @@ export const CardsContainer = styled.div`
     flex-wrap: wrap;
     gap: 25px;
     padding: 15px;
+    min-width: 650px;
 `;
 
 export const Cards = styled.div`
