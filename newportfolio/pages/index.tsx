@@ -7,6 +7,7 @@ import RandomQuote from '../RandomQuote/RandomQuote';
 import AboutPage from '../PortfolioPages/AboutPage/AboutPage';
 import DiamondAnimationSVG from '../svgAnimations/DiamondAnimationSVG';
 import Techskills from '../PortfolioPages/TechSkills/TechSkills';
+import Projects from '../PortfolioPages/Projects/Projects';
 
 const Home: NextPage = () => {
     return (
@@ -55,6 +56,7 @@ const Home: NextPage = () => {
                 <DiamondAnimationSVG />
                 <AboutPage />
                 <Techskills />
+                <Projects />
             </div>
         </div>
     );

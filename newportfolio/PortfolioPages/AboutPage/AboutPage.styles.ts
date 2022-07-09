@@ -5,8 +5,8 @@ export const AboutContainer = styled.section`
     height: 650px;
     width: 650px;
     border-radius: 50%;
-    position: absolute;
-    left: 27%;
+    position: relative;
+
     top: 250px;
     display: flex;
     flex-direction: column;

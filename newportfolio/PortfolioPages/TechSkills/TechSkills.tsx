@@ -1,16 +1,29 @@
 import {
+    HorizontalLine,
+    HorizontalLineInner,
+    HrLineInnerText,
+} from '../AboutPage/AboutPage.styles';
+import {
     Cards,
     CardsContainer,
     ProgressLabel,
     SkillProgress,
     TechSkillContainer,
     TechSkillHeaderText,
+    ToolCards,
+    ToolCardsContainer,
+    ToolInnerText,
+    ToolsHeaderText,
 } from './TechSkills.styles';
 
 export default function Techskills() {
     return (
         <TechSkillContainer>
-            <TechSkillHeaderText>Technical Skills</TechSkillHeaderText>
+            <HorizontalLine>
+                <HorizontalLineInner>
+                    <TechSkillHeaderText>Technical skills</TechSkillHeaderText>
+                </HorizontalLineInner>
+            </HorizontalLine>
             <CardsContainer>
                 <Cards>
                     <ProgressLabel>HTML</ProgressLabel>
@@ -36,7 +49,37 @@ export default function Techskills() {
                     <ProgressLabel>Python</ProgressLabel>
                     <SkillProgress value="65" max="100" />
                 </Cards>
+                <Cards>
+                    <ProgressLabel>Bootstrap</ProgressLabel>
+                    <SkillProgress value="85" max="100" />
+                </Cards>
+                <Cards>
+                    <ProgressLabel>TypeScript</ProgressLabel>
+                    <SkillProgress value="65" max="100" />
+                </Cards>
             </CardsContainer>
+            <HorizontalLine>
+                <HorizontalLineInner>
+                    <ToolsHeaderText>Tools Skills</ToolsHeaderText>
+                </HorizontalLineInner>
+            </HorizontalLine>
+            <ToolCardsContainer>
+                <ToolCards>
+                    <ToolInnerText>Adobe XD</ToolInnerText>
+                </ToolCards>
+                <ToolCards>
+                    <ToolInnerText>Figma</ToolInnerText>
+                </ToolCards>
+                <ToolCards>
+                    <ToolInnerText>Git </ToolInnerText>
+                </ToolCards>
+                <ToolCards>
+                    <ToolInnerText>Anaconda</ToolInnerText>
+                </ToolCards>
+                <ToolCards>
+                    <ToolInnerText>MS office</ToolInnerText>
+                </ToolCards>
+            </ToolCardsContainer>
         </TechSkillContainer>
     );
 }
